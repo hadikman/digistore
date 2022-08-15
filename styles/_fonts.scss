@@ -1,53 +1,145 @@
+/* English Digit */
 @font-face {
-  font-family: vazirmatn;
-  src: url(/fonts/vazirmatn/vazirmatn-rd-thin.woff2);
+  font-family: 'vazirmatn-ed';
+  src: url(/fonts/vazirmatn/ed/vazirmatn-rd-thin.woff2);
   font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: vazirmatn;
-  src: url(/fonts/vazirmatn/vazirmatn-rd-extralight.woff2);
+  font-family: 'vazirmatn-ed';
+  src: url(/fonts/vazirmatn/ed/vazirmatn-rd-extralight.woff2);
   font-weight: 200;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: vazirmatn;
-  src: url(/fonts/vazirmatn/vazirmatn-rd-light.woff2);
+  font-family: 'vazirmatn-ed';
+  src: url(/fonts/vazirmatn/ed/vazirmatn-rd-light.woff2);
   font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: vazirmatn;
-  src: url(/fonts/vazirmatn/vazirmatn-rd-regular.woff2);
+  font-family: 'vazirmatn-ed';
+  src: url(/fonts/vazirmatn/ed/vazirmatn-rd-regular.woff2);
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: vazirmatn;
-  src: url(/fonts/vazirmatn/vazirmatn-rd-medium.woff2);
+  font-family: 'vazirmatn-ed';
+  src: url(/fonts/vazirmatn/ed/vazirmatn-rd-medium.woff2);
   font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: vazirmatn;
-  src: url(/fonts/vazirmatn/vazirmatn-rd-semibold.woff2);
+  font-family: 'vazirmatn-ed';
+  src: url(/fonts/vazirmatn/ed/vazirmatn-rd-semibold.woff2);
   font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: vazirmatn;
-  src: url(/fonts/vazirmatn/vazirmatn-rd-bold.woff2);
+  font-family: 'vazirmatn-ed';
+  src: url(/fonts/vazirmatn/ed/vazirmatn-rd-bold.woff2);
   font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: vazirmatn;
-  src: url(/fonts/vazirmatn/vazirmatn-rd-extrabold.woff2);
+  font-family: 'vazirmatn-ed';
+  src: url(/fonts/vazirmatn/ed/vazirmatn-rd-extrabold.woff2);
   font-weight: 800;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: vazirmatn;
-  src: url(/fonts/vazirmatn/vazirmatn-rd-black.woff2);
+  font-family: 'vazirmatn-ed';
+  src: url(/fonts/vazirmatn/ed/vazirmatn-rd-black.woff2);
   font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Farsi Digit */
+@font-face {
+  font-family: 'vazirmatn-fd';
+  src: url(/fonts/vazirmatn/fd/vazirmatn-rd-fd-thin.woff2);
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vazirmatn-fd';
+  src: url(/fonts/vazirmatn/fd/vazirmatn-rd-fd-extralight.woff2);
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vazirmatn-fd';
+  src: url(/fonts/vazirmatn/fd/vazirmatn-rd-fd-light.woff2);
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vazirmatn-fd';
+  src: url(/fonts/vazirmatn/fd/vazirmatn-rd-fd-regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vazirmatn-fd';
+  src: url(/fonts/vazirmatn/fd/vazirmatn-rd-fd-medium.woff2);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vazirmatn-fd';
+  src: url(/fonts/vazirmatn/fd/vazirmatn-rd-fd-semibold.woff2);
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vazirmatn-fd';
+  src: url(/fonts/vazirmatn/fd/vazirmatn-rd-fd-bold.woff2);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vazirmatn-fd';
+  src: url(/fonts/vazirmatn/fd/vazirmatn-rd-fd-extrabold.woff2);
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vazirmatn-fd';
+  src: url(/fonts/vazirmatn/fd/vazirmatn-rd-fd-black.woff2);
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }

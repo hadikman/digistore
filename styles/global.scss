@@ -1,6 +1,10 @@
 @use 'fonts';
 
 html {
-  font-family: vazirmatn;
+  font-family: 'vazirmatn-fd';
   direction: rtl;
+}
+
+.enDigit {
+  font-family: 'vazirmatn-ed' !important;
 }
