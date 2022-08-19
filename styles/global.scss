@@ -1,6 +1,15 @@
 @use 'fonts';
 
 html {
-  font-family: vazirmatn;
+  font-family: 'vazirmatn-fd';
   direction: rtl;
+}
+
+form,
+input {
+  direction: ltr;
+}
+
+.enDigit {
+  font-family: 'vazirmatn-ed' !important;
 }
