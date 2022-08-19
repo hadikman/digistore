@@ -1,0 +1,25 @@
+.container {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 1rem;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  li {
+    background-color: #bbb;
+    padding: 0.5rem;
+    margin: 5px;
+  }
+  link {
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+  }
+}

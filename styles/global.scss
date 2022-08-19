@@ -5,6 +5,11 @@ html {
   direction: rtl;
 }
 
+form,
+input {
+  direction: ltr;
+}
+
 .enDigit {
   font-family: 'vazirmatn-ed' !important;
 }
