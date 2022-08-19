@@ -19,7 +19,7 @@ const authOptiones = {
         },
         password: { label: 'Password', type: 'password' },
       },
-      authorize(credentials, req) {
+      authorize(credentials) {
         const { username, password } = credentials;
 
         if (username !== 'user' || password !== '1234')
@@ -43,7 +43,7 @@ const authOptiones = {
 
       return token;
     },
-    async session({ session, user, token }) {
+    async session({ session }) {
       session.id = 'ks282ks';
       session.additionalData = '😀';
 

@@ -1,4 +1,4 @@
-import styles from './home.module.scss';
+// import styles from './home.module.scss';
 
 function Home() {
   return <h2>صفحه اصلی</h2>;
