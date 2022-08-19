@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  button {
+    font-family: inherit;
+    width: 20%;
+    padding: 1rem;
+  }
+}
+
+.text {
+  font-size: 2rem;
+  display: inline-block;
+  width: 50%;
+  height: 25rem;
+  color: white;
+  background-color: rgb(20, 56, 255);
+  padding: 1.2rem 2.6rem;
+
+  &.enter {
+    opacity: 0;
+  }
+
+  &.enterActive {
+    opacity: 1;
+    transform: translateX(-5%);
+    transition: opacity 0.3s linear, transform 0.3s ease-in-out;
+  }
+
+  &.exit {
+    opacity: 1;
+  }
+
+  &.exitActive {
+    opacity: 0;
+    transform: translateX(50%);
+    transition: opacity 0.3s linear, transform 0.3s ease-in-out;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 0.9s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
